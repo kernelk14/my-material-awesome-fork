@@ -15,7 +15,7 @@ local slider =
 slider:connect_signal(
   'property::value',
   function()
-    spawn('amixer -D pulse sset Master ' .. slider.value .. '%')
+    spawn('amixer -D pipewire sset Master ' .. slider.value .. '%')
   end
 )
 

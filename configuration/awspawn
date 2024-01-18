@@ -9,11 +9,13 @@
 # List of applications to run
 APPS=(
     barrier
+    pipewire
     )
 
 # Some applications start child applications that need to be killed on reload
 KILL=(
     barriers
+    pipewire
     )
 
 # First kill lingering apps

@@ -52,8 +52,8 @@ local globalKeys =
   ),
   awful.key({modkey}, 'u', awful.client.urgent.jumpto, {description = 'jump to urgent client', group = 'client'}),
   awful.key(
-    {altkey},
-    'Tab',
+    {altkey, "Control"},
+    'Right',
     function()
       --awful.client.focus.history.previous()
       awful.client.focus.byidx(1)
@@ -64,8 +64,8 @@ local globalKeys =
     {description = 'Switch to next window', group = 'client'}
   ),
   awful.key(
-    {altkey, 'Shift'},
-    'Tab',
+    {altkey, 'Control'},
+    'Left',
     function()
       --awful.client.focus.history.previous()
       awful.client.focus.byidx(-1)

@@ -5,12 +5,12 @@ local dpi = require('beautiful').xresources.apply_dpi
 
 local theme = {}
 theme.icons = theme_dir .. '/icons/'
-theme.font = 'Roboto medium 10'
+theme.font = 'Iosevka Nerd Font 10'
 
 -- Colors Pallets
 
 -- Primary
-theme.primary = mat_colors.indigo
+theme.primary = mat_colors.amber
 theme.primary.hue_500 = '#003f6b'
 -- Accent
 theme.accent = mat_colors.pink
